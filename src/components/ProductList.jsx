@@ -7,11 +7,11 @@ import plant3 from '../assets/images/plant3.jpg';
  
 
 const products = [
+
   { id: 1, name: 'Gynura ', price: 10, image: plant1, category: 'indoor' },
   { id: 2, name: 'Violeta africana ', price: 15, image: plant2, category: 'indoor' },
   { id: 3, name: 'Senecio azul ', price: 20, image: plant3, category: 'outdoor' },
-];
-
+]
 const ProductList = () => {
     const dispatch = useDispatch();
   
