@@ -5,7 +5,7 @@ import { addToCart } from '../redux/actions';
 
 const products = [
   { id: 1, name: 'Gynura ', price: 10, image: {import.meta.env.BASE_URL}images/plant1.png, category: 'indoor' },
-  { id: 2, name: 'Violeta africana ', price: 15, image: '/images/plant2.jpg', category: 'indoor' },
+  { id: 2, name: 'Violeta africana ', price: 15, image: '../assets/images/plant2.jpg', category: 'indoor' },
   { id: 3, name: 'Senecio azul ', price: 20, image: '/images/plant3.jpg', category: 'outdoor' },
 ];
 
